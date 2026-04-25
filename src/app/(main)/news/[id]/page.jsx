@@ -77,7 +77,7 @@ const NewsDetailsPage = async ({ params }) => {
             </div>
 
             <Link href={`/category/${news.category_id}`}>
-              <button className="btn bg-purple-500 text-white">
+              <button className="btn bg-red-500 text-white">
                 See other news for this category <BsArrowRight />
               </button>
             </Link>
